@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADER BIT*/
+
+.video-bg {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.video-bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.video-bg .body-holder {
+    position: relative;
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 60, 0.6);
+    z-index: -1;
+
+}
+.body-holder {
+    padding: 20px 60px 0 60px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.biru-img-holder {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.biru-img-holder img {
+    width: 100%;
+}
+
+.biru-img-holder p {
+    font-size: 2rem;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.get-started button {
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+     background: linear-gradient(to right, #2b5ddf, #2d9df4, #33c0f7);
+    border-radius: 3px;
+}
+
+.welcome-sec {
+    padding: 50px 0 0 0;
+}
+
+
+.second-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.the-main{
+    color: rgb(75,75,201);
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+
+.welcome-sec-p1{
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.welcome-sec-para{
+    margin: 10px 0 10px 0;
+    letter-spacing: 1px;
+max-width: 500px;
+}
+
+.btnn1 {
+    width: 250px;
+    height: 60px;
+    border: 2px solid white;
+   border-radius: 1px;
+   transition-duration: 0.5s;
+   text-decoration: none;
+   background-color: transparent;
+   color: white;
+}
+
+.btnn1:hover {
+    background-color: rgb(49, 166, 250);
+}
+
+.second-sec-img {
+    height: 400px;
+    width: 450px;
+}
+
+.second-sec-img img {
+    width: 100%;
+}
+
+/* BODY BIT*/
+
+.floating-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.box {
+    background-color: white;
+   
+    border-radius: 10px;
+    box-shadow: 0 5px 5px  rgba(0,0,0,0.1);
+    width: 400px;
+    height: 300px;
+    margin-top: -100px;
+     transition: 0.5s ease, box-shadow 0.3s ease;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+
+}
+
+
+.box:hover {
+    scale: 110%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.box-icon {
+    width: 80px;
+}
+
+.box-icon img {
+    width: 100%;
+}
+
+.box-header {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.box-p {
+    color: gray;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.cia {
+    background-color: rgb(5, 5, 57);
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+
+.join {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.logo-holder{
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-right: 7%;
+}
+
+
+.logo {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 10px 50px;
+    
+    
+}
+
+.foot-content {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {
+    
+    width: 250px;
+    height: 60px;
+    border: none;
+   border-radius: 1px;
+   transition-duration: 0.5s;
+   text-decoration: none;
+   background-color: rgb(5, 5, 57);
+   color: white;
+}
+
+.pic-foot {
+    width: 270px;
+}
+
+.pic-foot img {
+    width: 100%;
+}
+
+.foot-last {
+    width: 400px;
+    height: 400px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.foot-1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    
+}
+
+.foot-1:hover {
+    background: linear-gradient(to right, #2b5ddf, #2d9df4, #33c0f7);
+    color: white;
+}
+
+
+.foot-img {
+    width: 60px;
+}
+.foot-img img {
+    width: 100%;
+}
+
+
+.welcome-sec-p2{
+    font-size: 2.5rem;
+   
+}
+
+
+/* HAMBURGER MENU STYLING */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: rgb(253, 251, 251);
+    padding-right: 20px;
+    position: absolute;
+    top: 4%;
+    right: 2%;
+}
+
+
+/*responsiveness for lil phones*/
+@media screen and (max-width: 767px) and (min-width: 320px) {
+.navigation {
+    display: none;
+}
+
+
+.body-holder {
+    padding:20px 20px 0 20px;
+}
+
+    .hamburger {
+        display: block;
+    }
+
+   .second-sec-img {
+   /* margin-left: 100px;*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index:-1
+    
+}
+ 
+.welcome-sec {
+   padding:5% 0 0 0 ;
+    height: 200px;
+}
+.second-sec-img img {
+    width: 70%;
+    
+}
+
+.the-main {
+    font-size: 0.6rem;
+}
+
+.welcome-sec-p1 {
+    font-size: 1.5rem;
+}
+
+.welcome-sec-para {
+    font-size: 0.9rem;
+}
+
+.second-sec button {
+    width: 160px;
+    height: 50px;
+}
+
+.second-sec{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+
+.logo-holder {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20%;
+    align-items: center;
+    padding:0 3rem 0 3rem;
+}
+
+.footer {
+    flex-direction: column;
+    padding: 50px 30px 10px 20px;
+}
+.foot-content {
+    width: 330px;
+    
+}
+
+.welcome-sec-p2 {
+    font-size: 2.0rem;
+}
+
+.foot-last {
+    width: 350px;}
+
+
+    .floating-boxes {
+        flex-direction: column;
+        gap: 130px;
+    }
+
+    .box {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-height: 568px) and (max-width: 320px) {
+    
+.foot-last {
+    width: 270px;}
+
+    
+.second-sec button {
+    width: 140px;
+    height: 50px;
+}
+
+.welcome-btn {
+    display: flex;
+    gap: 4px;
+}
+
+.foot-content {
+    width: 270px;
+    
+}
+
+.btn{
+    width: 230px;
+}
+
+.box {
+    width: 250px;
+}
+
+.footer {
+    flex-direction: column;
+    padding: 50px 40px 10px 30px;
+}
+
+}
+
+
+/* responsiveness for ipads n stuff*/
+@media (min-width: 768px) and (max-width: 1114px) {
+.body-holder {
+    padding: 20px 50px 0 50px;
+}
+
+.navigation {
+    gap: 14px;
+}
+
+.welcome-sec {
+    padding-top: 25px;
+}
+
+.welcome-sec-p1 {
+    font-size: 2.5rem;
+}
+
+
+.welcome-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.btnn1 {
+    width: 150px;
+}
+
+.second-sec-img {
+    
+    width: 600px;
+}
+
+.logo-holder {
+    gap: 13%;
+}
+
+.floating-boxes {
+    gap: 10px;
+}
+
+.box {
+    width: 250px;
+}
+
+}
